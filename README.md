@@ -1,4 +1,4 @@
-#Suspicious Crowd Activity Detection and Localization
+# Suspicious Crowd Activity Detection and Localization
 
 This project leverages Computer Vision and Convolutional Neural Networks (CNN) to detect suspicious activities in real-time from CCTV surveillance footage. It aims to improve security by providing an automated approach for identifying anomalies in crowded spaces like malls, airports, and railway stations.
 

@@ -2,7 +2,7 @@
 
 This project leverages Computer Vision and Convolutional Neural Networks (CNN) to detect suspicious activities in real-time from CCTV surveillance footage. It aims to improve security by providing an automated approach for identifying anomalies in crowded spaces like malls, airports, and railway stations.
 
-#Features
+# Features
 	•	Real-time detection and localization of suspicious activities.
 	•	Categorization of activities into:
 	1.	Suspicious Activity
@@ -12,7 +12,7 @@ This project leverages Computer Vision and Convolutional Neural Networks (CNN) t
 	•	Sends automated alerts upon detecting anomalies.
 	•	Uses CNN and LSTM for accurate temporal and spatial analysis of video frames.
 
-#System Overview
+# System Overview
 
 Methodology:
 	1.	Input Video Stream: Live or recorded surveillance footage.
@@ -28,7 +28,7 @@ Tools and Technologies:
 	•	LSTM (for temporal pattern recognition)
 	•	Libraries: OpenCV, TensorFlow, Keras
 
-#Project Architecture
+# Project Architecture
 	1.	Video Input: Captures video from CCTV cameras.
 	2.	Preprocessing: Converts video into frames, resizes them, and normalizes.
 	3.	Model Training:
@@ -41,7 +41,7 @@ Tools and Technologies:
 	•	Generates visual alerts on the video feed.
 	•	Sends notifications to designated authorities.
 
-#Dataset
+# Dataset
 
 Sources:
 	•	Kaggle Dataset: Criminal and suspicious activity data.
@@ -56,7 +56,7 @@ Dataset Categories:
 	2.	Walking
 	3.	Running
 
-#Installation
+# Installation
 
 Prerequisites:
 	•	Python 3.8+
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 	4.	Download pretrained YOLOv4 weights and place them in the models/ directory.
 
-Usage
+# Usage
 
 Running the Application:
 	1.	Start the surveillance system:
@@ -106,7 +106,7 @@ Future Work
 	•	Improved real-time processing for high-definition video.
 	•	Integration with advanced alert mechanisms (e.g., mobile push notifications).
 
-#License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
